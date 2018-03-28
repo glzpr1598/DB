@@ -36,7 +36,7 @@ FROM 유저명;
 *******************************************************/
 
 -- 테이블 생성
-CREATE TABLE 테이블명 (
+CREATE TABLE 테이블명(
     컬럼명 데이터타입 ...
 );
 
@@ -163,7 +163,7 @@ ALTER TABLE 테이블명
 DROP CONSTRAINT 제약조건명;
 
 -- 제약조건 조회
-SELECT * FROM USER_CONSTRAINTS;]
+SELECT * FROM USER_CONSTRAINTS;
 
 -- 연계 참조 무결성 제약조건
 외래키 ON {DELETE | UPDATE} {NO ACTION | CASCADE | SET NULL | SET DEFAULT}
