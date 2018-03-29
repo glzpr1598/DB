@@ -12,7 +12,7 @@ IDENTIFIED BY 비밀번호;
 
 -- 유저 조회
 SELECT * 
-FROM DAB_USERS;
+FROM DBA_USERS;
 
 -- 유저 삭제
 DROP USER 유저명 
