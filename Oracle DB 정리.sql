@@ -4,7 +4,7 @@
 
 -- 유저 생성
 CREATE USER 유저명
-INDENTIFIED BY 비밀번호;
+IDENTIFIED BY 비밀번호;
 
 -- 유저 비밀번호 변경
 ALTER USER 유저명 
@@ -145,7 +145,7 @@ HAVING 조건
 
 -- 제약조건 종류
 PRIMARY KEY(컬럼명)
-FOREIGN KEY(컬럼명) REFERENCES테이블(참조컬럼)
+FOREIGN KEY(컬럼명) REFERENCES 테이블(참조컬럼)
 UNIQUE(컬럼명)
 CHECK(조건)
 ...
