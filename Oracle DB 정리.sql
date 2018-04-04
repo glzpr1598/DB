@@ -87,7 +87,7 @@ VALUES(값 ...);
 
 -- 데이터 수정
 UPDATE 테이블명
- SET 컬럼명 = 값 
+SET 컬럼명 = 값 
 [WHERE 조건];
 
 -- 데이터 삭제
@@ -145,7 +145,7 @@ HAVING 조건
 
 -- 제약조건 종류
 PRIMARY KEY(컬럼명)
-FOREIGN KEY(컬럼명) REFERENCE(참조컬럼)
+FOREIGN KEY(컬럼명) REFERENCES테이블(참조컬럼)
 UNIQUE(컬럼명)
 CHECK(조건)
 ...
